@@ -1,3 +1,10 @@
+Kaprekar's Constant:
+
+Recently I came across a video on Youtube regarding an interesting concept called 'Kaprekar's Constant'.I was so fascinated by this that I ended up creating a python program to verify it during my office hours (🤫). It took me just few minutes but I had so much fun that I decided to upload it to github.
+I highly recommend you to watch the video on Prime Newtons Youutube Channel (https://www.youtube.com/watch?v=xtyNuOikdE4).
+
+More info about Kaprekar's Constant: (Taken from wikipedia)
+
 Dattatreya Ramchandra Kaprekar (Marathi: दत्तात्रेय रामचंद्र कापरेकर; 17 January 1905 – 1986) was an Indian recreational mathematician who described several classes of natural numbers including the Kaprekar, harshad and self numbers and discovered the Kaprekar's constant, named after him. Despite having no formal postgraduate training and working as a schoolteacher, he published extensively and became well known in recreational mathematics circles.
 
 In 1955, Kaprekar discovered an interesting property of the number 6174, which was subsequently named the Kaprekar constant. He showed that 6174 is reached in the end as one repeatedly subtracts the highest and lowest numbers that can be constructed from a set of four digits that are not all identical. Thus, starting with 1234, we have:

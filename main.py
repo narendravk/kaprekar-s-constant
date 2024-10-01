@@ -25,29 +25,29 @@ def get_min_max(x:int):
 
 i = 0
 
-def check_karpekar(y:int):
+def check_kaprekar(y:int):
     global i
     min_num,max_num=get_min_max(y)
     new_num = max_num-min_num
     print(f'new_num = {new_num}')
     if new_num == 6174:
-        print(f"Reached Karpekar's Constant in {i} iterations! Exiting..")
+        print(f"Reached Kaprekar's Constant in {i} iterations! Exiting..")
         return(f"-> 6174 in {i} iterations")
     elif new_num == 0:
         print(f"Reached 0 in {i} iterations! Exiting..")
         return(f"-> 0 in {i} iterations")
     else:
         i += 1
-        return check_karpekar(new_num)
+        return check_kaprekar(new_num)
 
 def verify_all_digits():
-    with open('karpekar.txt','w') as file:
-        file.write("Karpekar's Constant\n")
+    with open('kaprekar.txt','w') as file:
+        file.write("Kaprekar's Constant\n")
         file.write("Dattatreya Ramachandra Kaprekar\n")
         file.write(f"{logo}\n")
         for n in range(1001,10000):
             print(n)
-            output = check_karpekar(n)
+            output = check_kaprekar(n)
             file.write(f"{n}: {output}\n")
             global i
             i = 0

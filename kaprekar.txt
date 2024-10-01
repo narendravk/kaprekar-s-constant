@@ -1,4 +1,4 @@
-Karpekar's Constant
+Kaprekar's Constant
 Dattatreya Ramachandra Kaprekar
 
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -9043,6 +9043,4 @@ Dattatreya Ramachandra Kaprekar
 9997: -> 6174 in 3 iterations
 9998: -> 6174 in 4 iterations
 9999: -> 0 in 0 iterations
-Created in Python by: Narendra K
-
-
+Created in Python by: Narendra. Visit me at narendravk.github.io
